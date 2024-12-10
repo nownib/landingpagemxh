@@ -1,0 +1,165 @@
+/* Home.css */
+.container-fluid {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+    min-height: 100vh;
+}
+
+/* Cải thiện card style */
+.row.mb-5 {
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Nâng cấp heading style */
+h1.text-primary {
+    font-size: 2.5rem;
+    background: linear-gradient(45deg, #007bff, #00a6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+    margin-bottom: 2rem;
+}
+
+h3.text-primary {
+    background: linear-gradient(45deg, #007bff, #00a6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Cải thiện highlight style */
+.highlight {
+    background: linear-gradient(45deg, #007bff, #00a6ff);
+    color: white;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
+}
+
+.highlight:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Cải thiện image container */
+.image-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Cải thiện analysis text */
+.analysis-text {
+    background: #f8f9fa;
+    border-left: 6px solid #007bff;
+    border-radius: 0 12px 12px 0;
+    padding: 1.5rem;
+    line-height: 1.8;
+}
+
+/* Animation mượt mà hơn */
+.row {
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.highlight {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.1em;
+    background: #e9ecef;
+    padding: 2px 6px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0 2px;
+    transition: all 0.3s ease;
+}
+
+.highlight:hover {
+    transform: scale(1.1);
+    background: #007bff;
+    color: white;
+}
+
+.image-container {
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.analysis-text {
+    border-left: 4px solid #007bff;
+    height: 100%;
+    overflow-y: auto;
+    max-height: 600px;
+}
+
+.analysis-text::-webkit-scrollbar {
+    width: 8px;
+}
+
+.analysis-text::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.analysis-text::-webkit-scrollbar-thumb {
+    background: #007bff;
+    border-radius: 4px;
+}
+
+.row {
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.row:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+h1.text-primary {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 992px) {
+    .analysis-text {
+        margin-top: 20px;
+        max-height: 400px;
+    }
+
+    .row:hover {
+        transform: none;
+    }
+
+    .image-container:hover {
+        transform: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    .fs-5 {
+        font-size: 1rem !important;
+    }
+}
