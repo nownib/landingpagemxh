@@ -402,7 +402,7 @@ const Home = () => {
 				</section>
 				<section className="text-center my-5">
 					<a
-						href="https://constant-excitable-dibbler.anvil.app"
+						href="https://instructive-grizzled-district.anvil.app"
 						class="custom-button px-5"
 					>
 						Tiếp tục
