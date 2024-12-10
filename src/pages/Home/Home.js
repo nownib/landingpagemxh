@@ -401,7 +401,10 @@ const Home = () => {
 					))}
 				</section>
 				<section className="text-center my-5">
-					<a href="https://example.com" class="custom-button px-5">
+					<a
+						href="https://constant-excitable-dibbler.anvil.app"
+						class="custom-button px-5"
+					>
 						Tiếp tục
 					</a>
 				</section>
