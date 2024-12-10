@@ -52,55 +52,7 @@ const Home = () => {
             Điều đáng chú ý là chỉ có <span class='highlight'>59</span> sinh viên (<span class='highlight'>3.33%</span>) đạt điểm trên 8.0. Con số này gợi ý rằng số lượng sinh viên tốt nghiệp loại giỏi và xuất sắc sẽ khá khiêm tốn.`,
 		},
 	];
-	const arr2 = [
-		{
-			title: "Tổng quan Dữ liệu",
-			des: `Dữ liệu phân tích bao gồm <span class='highlight'>1,771</span> sinh viên từ 4 khóa (Khóa 8 đến Khóa 11), với sự phân bố không đồng đều về quy mô và giới tính. Đáng chú ý, có sự sụt giảm dần về số lượng sinh viên qua các khóa học.
-			<br/><br/>
-			Về cơ cấu: Khóa 8 chiếm <span class='highlight'>31%</span> với 548 sinh viên, Khóa 9 chiếm <span class='highlight'>28.6%</span> với 507 sinh viên, Khóa 10 chiếm <span class='highlight'>25.8%</span> với 457 sinh viên, và Khóa 11 chiếm <span class='highlight'>14.6%</span> với 259 sinh viên.`,
-		},
-		{
-			title: "Phân tích Giới tính",
-			des: `Cơ cấu giới tính cho thấy sự mất cân đối đáng kể: Nam giới chiếm <span class='highlight'>86.22%</span> (1,527 sinh viên), trong khi nữ giới chỉ chiếm <span class='highlight'>13.78%</span> (244 sinh viên). Tỷ lệ này tương đương khoảng <span class='highlight'>6.26</span> nam trên 1 nữ.
-			<br/><br/>
-			Đây là đặc điểm quan trọng cần lưu ý khi phân tích các yếu tố khác như học lực và sự phân bố theo khóa học.`,
-		},
-		{
-			title: "Phân tích Học lực",
-			des: `Phân phối điểm số cho thấy ba nhóm chính:
-			<br/>
-			- <span class='highlight'>51.67%</span> sinh viên (915) có điểm dưới 6.5
-			<br/>
-			- <span class='highlight'>45%</span> sinh viên (797) đạt điểm từ 6.5 đến 8.0
-			<br/>
-			- <span class='highlight'>3.33%</span> sinh viên (59) đạt điểm trên 8.0
-			<br/><br/>
-			Phân phối này cho thấy một krzywa chuẩn lệch trái, với đa số sinh viên tập trung ở mức điểm trung bình và khá.`,
-		},
-		{
-			title: "Tương quan Khóa học và Học lực",
-			des: `Phân tích theo khóa học cho thấy xu hướng cải thiện về chất lượng:
-			<br/><br/>
-			- Khóa 8: <span class='highlight'>330</span> khá, <span class='highlight'>80</span> giỏi, <span class='highlight'>130</span> trung bình khá
-			<br/>
-			- Khóa 9: <span class='highlight'>320</span> khá, <span class='highlight'>110</span> giỏi, <span class='highlight'>70</span> trung bình khá
-			<br/>
-			- Khóa 10: <span class='highlight'>270</span> khá, <span class='highlight'>130</span> giỏi, <span class='highlight'>50</span> trung bình khá
-			<br/><br/>
-			Đáng chú ý là số lượng sinh viên giỏi tăng dần qua các khóa, trong khi số lượng trung bình khá giảm.`,
-		},
-		{
-			img: pic2,
-			title: "Tương quan Giới tính và Học lực",
-			des: `Phân tích theo giới tính và xếp loại học lực cho thấy:
-			<br/><br/>
-			Nam: <span class='highlight'>900</span> khá, <span class='highlight'>320</span> giỏi, <span class='highlight'>240</span> trung bình khá
-			<br/>
-			Nữ: <span class='highlight'>150</span> khá, <span class='highlight'>50</span> giỏi, <span class='highlight'>15</span> trung bình khá
-			<br/><br/>
-			Tỷ lệ học lực giỏi và khá ở nữ giới cao hơn so với nam giới khi tính theo tỷ lệ phần trăm trong từng nhóm.`,
-		},
-	];
+
 	return (
 		<>
 			<div className="container-fluid py-3">
@@ -447,6 +399,11 @@ const Home = () => {
 							</div>
 						</div>
 					))}
+				</section>
+				<section className="text-center my-5">
+					<a href="https://example.com" class="custom-button px-5">
+						Tiếp tục
+					</a>
 				</section>
 			</div>
 		</>

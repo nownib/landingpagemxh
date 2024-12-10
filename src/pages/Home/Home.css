@@ -1,5 +1,37 @@
 /* Home.css */
-/* Excel Preview Section Styles */
+.custom-button {
+    /* Kiểu dáng cơ bản */
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #2196F3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    
+    /* Hiệu ứng bóng */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    
+    /* Hiệu ứng chuyển động */
+    transition: all 0.3s ease;
+    
+    /* Loại bỏ gạch chân mặc định */
+    text-decoration: none;
+}
+
+/* Hiệu ứng khi di chuột */
+.custom-button:hover {
+    background-color: #00BCD4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Hiệu ứng khi nhấn */
+.custom-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
 .excel-preview {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     border-radius: 25px;
